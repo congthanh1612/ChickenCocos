@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ChickenRun",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.18333333333333332,
+  "sample": 60,
+  "speed": 0.2,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "2aa8d2ec-1bde-4de7-ae4f-b3522c7c8207"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "ee325032-0230-43a8-bf3e-420c16c0fc6c"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "eedad36b-e1e4-41ad-ad06-fb9e2fe06a46"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "2034848b-6f48-416b-93ee-a3698f644ede"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "a7c417db-c393-41ab-ad6b-4507c374e76a"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "140b8e18-9848-4851-a9a6-5c0c0b891b53"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

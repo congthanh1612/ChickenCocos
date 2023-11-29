@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "7e3b52cc-1ee0-4ba7-a553-1e7abf803ccc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "Chickenbg_07": {
+      "ver": "1.0.4",
+      "uuid": "140b8e18-9848-4851-a9a6-5c0c0b891b53",
+      "rawTextureUuid": "7e3b52cc-1ee0-4ba7-a553-1e7abf803ccc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 98,
+      "height": 125,
+      "rawWidth": 98,
+      "rawHeight": 125,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

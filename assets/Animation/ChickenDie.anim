@@ -1,0 +1,25 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ChickenDie",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.02,
+  "sample": 50,
+  "speed": 0.2,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "f8cc26d5-6aaf-4dba-a798-ff3ec9fe3e76"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
