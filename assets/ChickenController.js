@@ -9,14 +9,14 @@ cc.Class({
         isMove: false,
         isDie: false,
         anim: cc.Animation,
-        sprite: cc.Sprite, // Thêm một thuộc tính sprite để thay đổi màu
-        targetColor: cc.Color.BLACK, // Màu bạn muốn thay đổi thành
+        sprite: cc.Sprite, 
+        targetColor: cc.Color.BLACK, 
     },
 
     start() {
         this.node.x = this.xStart;
         this.anim = this.getComponent("cc.Animation");
-        this.sprite = this.getComponent(cc.Sprite); // Lấy thành phần Sprite
+        this.sprite = this.getComponent(cc.Sprite); 
     },
 
     update(dt) {
