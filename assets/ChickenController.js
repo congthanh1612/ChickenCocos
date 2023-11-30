@@ -22,7 +22,7 @@ cc.Class({
     update(dt) {
         if (this.isMoving && this.node.x < this.xTarget) {
             this.node.x += this.speed * dt;
-            if (this.node.x < 20) {
+            if (this.node.x < 30) {
                 this.run();
             } else if (this.node.x < this.xTarget) {
                 this.die();

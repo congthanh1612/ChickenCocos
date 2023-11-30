@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>Chickenbg_01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{166,119},{63,130}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{63,130}}</string>
+				<key>sourceSize</key>
+				<string>{63,130}</string>
+			</dict>
+
+			<key>Chickenbg_02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{98,0},{82,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{82,118}}</string>
+				<key>sourceSize</key>
+				<string>{82,118}</string>
+			</dict>
+
+			<key>Chickenbg_03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{83,119},{82,123}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{82,123}}</string>
+				<key>sourceSize</key>
+				<string>{82,123}</string>
+			</dict>
+
+			<key>Chickenbg_05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{97,118}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{97,118}}</string>
+				<key>sourceSize</key>
+				<string>{97,118}</string>
+			</dict>
+
+			<key>Chickenbg_06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,119},{82,121}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{82,121}}</string>
+				<key>sourceSize</key>
+				<string>{82,121}</string>
+			</dict>
+
+		</dict>
+
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>size</key>
+			<string>{256,256}</string>
+			<key>textureFileName</key>
+			<string>sprites.png</string>
+			</dict>
+		</dict>
+</plist>
