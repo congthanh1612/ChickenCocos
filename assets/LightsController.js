@@ -4,12 +4,13 @@ cc.Class({
         redLight: cc.Sprite,
         yellowLight: cc.Sprite,
         greenLight: cc.Sprite,
-        chicken: cc.Node,
-        car: cc.Node,
+        // chicken: cc.Node,
+        // car: cc.Node,
         transitionIndex : 0,
         transitionTime : 0,
         blinkTime : 0,
         blinkCount : 0,
+        isGreenLight: false,
     },
 
     onLoad() {
@@ -51,11 +52,12 @@ cc.Class({
             }
         } else {
             this.turnOffAllLights();
+            this.isGreenLight = true
             this.greenLight.node.active = true;
-            if(this.greenLight.node.active=true){
-                this.chicken.getComponent("ChickenController").isMoving=true;
-                this.car.getComponent("CarController").isComing=true;
-            }
+            // if(this.greenLight.node.active=true){
+            //     this.chicken.getComponent("ChickenController").isMoving=true;
+            //     this.car.getComponent("CarController").isComing=true;
+            // }
         }
     },
 

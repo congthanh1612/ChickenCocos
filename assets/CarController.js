@@ -6,6 +6,7 @@ cc.Class({
         yStart: -450,
         yTarget: -20,
         speed: 120,
+        carhit: cc.AudioSource,
 
         isComing: false,
         scale: 1,
@@ -20,6 +21,9 @@ cc.Class({
         if (this.isComing && this.node.y < this.yTarget) {
             this.node.y += this.speed * dt;
             this.counter += this.speed * dt;
+            if(this.node.y < -80){
+                this.carhit.play("carhit");
+            }
 
             const scaleFactor = Math.max(0, 1 - this.counter / 430);
             this.node.scaleX = scaleFactor;

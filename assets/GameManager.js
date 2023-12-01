@@ -1,24 +1,29 @@
-// cc.Class({
-//     extends: cc.Component,
+cc.Class({
+    extends: cc.Component,
 
-//     properties: {
-//         properties: {    
-//             car: cc.Node,
-//             chicken: cc.Node,
+    properties: {
+        light: cc.Node,
+        car: cc.Node,
+        chicken: cc.Node,
+        gameStart: false,
+    },
 
-//         },
-//     },
+    start() {
+        this.node.on(cc.Node.EventType.TOUCH_END, this.clickStart, this);
+    },
 
-//     onLoad () {
-//         console.log(this.node.getComponent("LightController").greenLight.active);
-        
-//     },
+    clickStart() {
+        if (!this.gameStart) {
+            this.gameStart = true;
+            console.log('ASDASDASDASD');
+        }
+    },
 
-//     start() {
+    update(dt) {
+        if (this.light.getComponent("LightsController").isGreenLight === true) {
+            this.chicken.getComponent("ChickenController").isMoving = true;
+            this.car.getComponent("CarController").isComing = true;
+        }
+    },
 
-//     },
-
-//     update (dt) {
-//     },
-
-// });
+});
