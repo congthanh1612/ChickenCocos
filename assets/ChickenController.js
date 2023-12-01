@@ -2,8 +2,9 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        xStart: -400,
-        xTarget: 77.34,
+        xStart: -250,
+        xTarget: 10,
+        yStart:-60,
         speed: 100,
         isMoving: false,
         isMove: false,
@@ -22,7 +23,7 @@ cc.Class({
     update(dt) {
         if (this.isMoving && this.node.x < this.xTarget) {
             this.node.x += this.speed * dt;
-            if (this.node.x < 30) {
+            if (this.node.x < 0) {
                 this.run();
             } else if (this.node.x < this.xTarget) {
                 this.die();
