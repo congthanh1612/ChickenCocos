@@ -4,7 +4,7 @@ cc.Class({
     properties: {
         xStart: 0,
         yStart: -450,
-        yTarget: 0,
+        yTarget: -20,
         speed: 120,
 
         isComing: false,
@@ -20,8 +20,8 @@ cc.Class({
         if (this.isComing && this.node.y < this.yTarget) {
             this.node.y += this.speed * dt;
             this.counter += this.speed * dt;
-            
-            const scaleFactor = Math.max(0, 1 - this.counter / 450);
+
+            const scaleFactor = Math.max(0, 1 - this.counter / 430);
             this.node.scaleX = scaleFactor;
             this.node.scaleY = scaleFactor;
         }
